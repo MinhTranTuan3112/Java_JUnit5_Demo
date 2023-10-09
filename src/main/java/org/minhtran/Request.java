@@ -49,10 +49,12 @@ public class Request {
             return;
         }
         try {
+            if (HasWindScreenRepair) {
+                this.Premium += 30;
+            }
             this.Premium = Premium + PremiumMap.get(Cover) * Premium;
             if (this.NumOfAccidents == 0) {
                 Discount += 0.3;
-                Premium = Premium - Premium * Discount;
             }
             if (TotalMileage > 5000) {
                 Premium += 50;
@@ -60,6 +62,7 @@ public class Request {
             if (ParkingLocation.equalsIgnoreCase("Public Place")) {
                 Premium += 30;
             }
+            Premium = Premium - Premium * Discount;
         } catch (Exception ex) {
             System.out.println("Calculate premium error: " + ex.getMessage());
         }

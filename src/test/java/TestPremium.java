@@ -55,7 +55,7 @@ public class TestPremium {
                 CallLogin();
                 String[] lineSplits = line.split(",");
                 request.Cover = lineSplits[0];
-                request.HasWindScreenRepair = lineSplits[1].equals("Yes");
+                request.HasWindScreenRepair = lineSplits[1].equalsIgnoreCase("TRUE");
                 request.NumOfAccidents = Integer.parseInt(lineSplits[2]);
                 request.TotalMileage = Double.parseDouble(lineSplits[3]);
                 request.EstimateValue = Double.parseDouble(lineSplits[4]);

@@ -1,21 +1,21 @@
 Cover Type,HasWindScreenRepair,Number Of Accidents,Total Mileage,Estimate Value,Parking Location
-No cover,Yes,0,10000,5000,Driveway/Carport
-Roadside,No,1,20000,6000,Locked Garage
-At home,Yes,2,30000,7000,Public Place
-European,No,3,40000,8000,Private Property
-No cover,Yes,4,50000,9000,Street / Road
-Roadside,No,5,60000,10000,Unlocked Garage
-At home,Yes,1,70000,11000,Driveway/Carport
-European,No,2,80000,12000,Locked Garage
-No cover,Yes,3,90000,13000,Public Place
-Roadside,No,4,100000,14000,Private Property
-At home,Yes,5,110000,30000,Street / Road
-European,No,6,34000,15000,Public Place
-No cover,Yes,7,23000,40000,Unlocked Garage
-Roadside,No,2,45000,90000,Driveway/Carport
-At home,Yes,3,65000,30000,Locked Garage
-European,No,4,23000,50000,Public Place
-No cover,Yes,5,33000,60000,Private Property
-Roadside,No,6,44000,70000,Street / Road
-At home,Yes,7,66000,80000,Unlocked Garage
-European,No,8,77000,9000,Driveway/Carport
+No cover,TRUE,0,10000,5000,Driveway/Carport
+Roadside,FALSE,1,20000,6000,Locked Garage
+At home,TRUE,2,30000,7000,Public Place
+European,FALSE,3,40000,8000,Private Property
+No cover,TRUE,4,50000,9000,Street / Road
+Roadside,FALSE,5,60000,10000,Unlocked Garage
+At home,TRUE,1,70000,11000,Driveway/Carport
+European,FALSE,2,80000,12000,Locked Garage
+No cover,TRUE,3,90000,13000,Public Place
+Roadside,FALSE,4,100000,14000,Private Property
+At home,TRUE,5,110000,30000,Street / Road
+European,FALSE,6,34000,15000,Public Place
+No cover,TRUE,7,23000,40000,Unlocked Garage
+Roadside,FALSE,2,45000,90000,Driveway/Carport
+At home,TRUE,3,65000,30000,Locked Garage
+European,FALSE,4,23000,50000,Public Place
+No cover,TRUE,5,33000,60000,Private Property
+Roadside,FALSE,6,44000,70000,Street / Road
+At home,TRUE,7,66000,80000,Unlocked Garage
+European,FALSE,8,77000,9000,Driveway/Carport
